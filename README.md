@@ -1,3 +1,4 @@
+
 # Header (ingeklapt)
 De header was mijn eerste groote development taak na de eerste client project. Het was wel een uitdaging om zo'n uitgebreide header te coderen. Voor deze header heb ik nog geen hulp gebruikt van een of ander tool. Alleen de animatie heb ik met ai gecreerd de rest is zelf gecodeerd. 
 
