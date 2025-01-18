@@ -1,0 +1,41 @@
+/* HoverEffect.css */
+.hover-container {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* .hover-word {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    z-index: 2;
+    transition: color 0.3s ease;
+} */
+
+
+.hover-line {
+    position: absolute;
+    height: 1px;
+    background-color: #E94560;
+    bottom: 0;
+    left: -100%;
+    /* Start buiten het frame aan de linkerkant */
+    width: 100%;
+    transition: transform 0.8s ease;
+    /* Vloeiende overgang */
+    z-index: 100;
+}
+
+.hover-container:hover .hover-line {
+    transform: translateX(200%);
+    /* Beweegt van links naar rechts */
+}
+
+.hover-container .hover-line {
+    transform: translateX(-100%);
+    /* Terug van rechts naar links */
+}
